@@ -40,12 +40,14 @@ const Blog = () => {
                     {randomQuote || "Click button for a random quote"}
                   </p>
                 </div>
+                <div className="flex justify-center items-center">
                 <button
-                  className="mt-4 bg-gradient-to-r from-blue-500 to-blue-700 hover:bg-gradient-to-r hover:from-pink-700 hover:to-pink-500 text-white py-2 px-4 rounded-lg"
+                  className=" mt-4 bg-gradient-to-r from-blue-500 to-blue-700 hover:bg-gradient-to-r hover:from-blue-700 hover:to-blue-500 text-white py-2 px-4 rounded-lg"
                   onClick={getRandomQuote}
                 >
                   Generate Quote
                 </button>
+                </div>
               </div>
             </div>
           </div>
