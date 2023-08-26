@@ -11,11 +11,15 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Quotes = [
-  "Knowledge is bliss, ignorance (if intended) is stupidity",
   "Judging happens with a glass(filter) that is made by our experience, what we read, how much we know about the world \nIf this glass is transparent (which can be by gaining more knowledge and intelligence) then the apparent judgement is the closest to objective Truth ",
   "Motivation is given to the person who is stuck, not to one who has not yet started",
-  "Love (prema bhakti) is the highest form of service",
-  "Surrending to Shri Krishna is the stepping block of your spiritual journey",
+  "Every Political party wants hundred-percent unconditional, voluntary loyalty towards them",
+  "Focus and cold-blood is a deadly combination",
+  "There are only 2 genders",
+  "Mind should work like a switch ON/OFF while working, like opening laser with a tap on what ever you're doing",
+  "Be Vegetarian else eat jhatka",
+  "Materialistic pleasures are just like materialist pleasures, intoxicating and deadly",
+  "Sanatan Dharma cannot perish until we fight",
 ];
 
 const Blog = () => {
