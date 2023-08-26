@@ -16,13 +16,13 @@ const Blog = () => {
         <div className="">
           <main id="blog">
             <div className="container mx-auto pt-4 pb-8 px-6 md:px-16 md:py-10 ">
-              <h2 className=" md:text-4xl text-3xl font-semibold text-center md:text-left mb-8">Quotes</h2>
+              <h2 className="text-black md:text-4xl text-3xl font-semibold text-center md:text-left mb-8">Quotes</h2>
               <div >
                 <div className="grid gap-4">
                   {Quotes.map((post, index) => (
                     <div key={index} className="flex-1 h-full"> {/* Added className */}
-                      <div className="bg-green-100 dark:bg-gray-900 rounded-xl shadow-sm dark:shadow-lime-400 p-4"> {/* Added h-full */}
-                        <p className="mt-2 text-black dark:text-white">{post.content}</p>
+                      <div className="bg-gradient-to-r from-blue-500 to-pink-500 rounded-xl shadow-lg p-4"> {/* Added h-full */}
+                        <p className="mt-2 text-white">{post.content}</p>
                       </div>
                     </div>
                   ))}

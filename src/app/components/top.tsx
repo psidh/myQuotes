@@ -33,22 +33,21 @@ const Top = () => {
     <GlobalStyle />  
       <div className="px-4 flex justify-center items-center"> 
       </div>
-      <section className="flex flex-col justify-center items-center py-4 md:pt-2 md:pb-8 px-4 lg:px-18">
+      <section className="flex flex-col justify-center items-center md:pb-8 px-4 lg:px-18">
         <h2 className="md:text-2xl text-4xl font-semibold mt-2 py-2">
-          <span className=" md:text-2xl text-lg font-normal">Hey, </span> 
-          <span className="font-semibold md:text-6xl text-3xl 
+          <span className=" md:text-2xl text-lg font-normal text-gray-800">Hey, </span> 
+          <span className="font-semibold md:text-4xl text-2xl 
           text-transparent bg-clip-text 
-           bg-gradient-to-t from-gray-700 to-black
-            py-2
+          bg-gradient-to-r from-blue-600 to-pink-600
            ">
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           I'm P Sidharth</span></h2>
-          <div className="py-2 px-4 lg:px-18 md:text-center text-center my-4 md:mb-8">
-            <p className="md:text-2xl text-md ">
+          <div className="px-4 lg:px-18 md:text-center text-center md:mb-8">
+            <p className="md:text-2xl text-md text-gray-800">
               {/* eslint-disable-next-line react/no-unescaped-entities */}
               I'm a Student, Developer 
             </p>
-            <p className="md:text-2xl text-md ">I Love Quotes and I have some of my own, please feel free to read and get inspired... 
+            <p className="md:text-2xl text-md text-gray-800">I Love Quotes and I have some of my own, please feel free to read and get inspired... 
               <span className="inline-flex opacity-50 text-2xl font-light blinking">|</span>
             </p>
           </div>
