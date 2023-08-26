@@ -50,8 +50,8 @@ const Blog = () => {
           <div>
             <div className="grid gap-4">
               <div className="flex-1 h-full">
-                <div className="bg-gradient-to-l from-blue-300 to-blue-500 dark:bg-gradient-to-r dark:from-blue-300 dark:to-pink-300 rounded-xl shadow-lg p-4">
-                  <p className="text-justify  mt-2 dark:text-black text-white">
+                <div className="bg-gradient-to-r from-blue-600 to-blue-400 rounded-xl shadow-lg p-4">
+                  <p className="text-justify  mt-2 text-white">
                     {randomQuote || "Click button for a random quote"}
                   </p>
                 </div>

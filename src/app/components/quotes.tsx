@@ -25,7 +25,7 @@ const Blog = () => {
                       from-blue-400 to-blue-600 
                       dark:bg-gradient-to-r dark:from-blue-400 dark:to-blue-600
                       rounded-xl shadow-lg p-4"> {/* Added h-full */}
-                        <p className="mt-2 dark:text-black text-white">{post.content}</p>
+                        <p className="mt-2 text-white">{post.content}</p>
                       </div>
                     </div>
                   ))}
