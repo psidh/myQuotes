@@ -21,15 +21,22 @@ const Quotes = [
   "Materialistic pleasures are just like materialist pleasures, intoxicating and deadly",
   "Sanatan Dharma cannot perish until we fight",
 ];
+let randomIndex = -1;
 
 const Blog = () => {
   const [randomQuote, setRandomQuote] = useState("");
   
   const getRandomQuote = () => {
-    const randomIndex = Math.floor(Math.random() * Quotes.length);
-    setRandomQuote(Quotes[randomIndex]);
+    randomIndex += 1;
+
+    // Check if randomIndex is within the bounds of Quotes array
+    if (randomIndex < Quotes.length) {
+      setRandomQuote(Quotes[randomIndex]);
+    } else {
+      // Handle reaching the end of the Quotes array
+      setRandomQuote("I am thinking of quotes, until then goodbye !! 😌");
+    }
   };
-  
   return (
     <div className="font-ambit">
       <GlobalStyle />
