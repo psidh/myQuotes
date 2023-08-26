@@ -21,9 +21,9 @@ const Blog = () => {
                 <div className="grid gap-4">
                   {Quotes.map((post, index) => (
                     <div key={index} className="flex-1 h-full"> {/* Added className */}
-                      <div className="bg-gradient-to-r 
-                      from-blue-500 to-pink-500 
-                      dark:bg-gradient-to-r dark:from-blue-300 dark:to-pink-300
+                      <div className="bg-gradient-to-l 
+                      from-blue-400 to-blue-600 
+                      dark:bg-gradient-to-r dark:from-blue-400 dark:to-blue-600
                       rounded-xl shadow-lg p-4"> {/* Added h-full */}
                         <p className="mt-2 dark:text-black text-white">{post.content}</p>
                       </div>
