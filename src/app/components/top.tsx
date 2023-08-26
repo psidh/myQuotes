@@ -35,19 +35,20 @@ const Top = () => {
       </div>
       <section className="flex flex-col justify-center items-center md:pb-8 px-4 lg:px-18">
         <h2 className="md:text-2xl text-4xl font-semibold mt-2 py-2">
-          <span className=" md:text-2xl text-lg font-normal text-gray-800">Hey, </span> 
+          <span className=" md:text-2xl text-lg font-normal dark:text-white text-gray-800">Hey, </span> 
           <span className="font-semibold md:text-4xl text-2xl 
           text-transparent bg-clip-text 
           bg-gradient-to-r from-blue-600 to-pink-600
+          dark:bg-gradient-to-r dark:from-blue-400 dark:to-pink-400
            ">
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           I'm P Sidharth</span></h2>
           <div className="px-4 lg:px-18 md:text-center text-center md:mb-8">
-            <p className="md:text-2xl text-md text-gray-800">
+            <p className="md:text-2xl text-md dark:text-white text-gray-800">
               {/* eslint-disable-next-line react/no-unescaped-entities */}
               I'm a Student, Developer 
             </p>
-            <p className="md:text-2xl text-md text-gray-800">I Love Quotes and I have some of my own, please feel free to read and get inspired... 
+            <p className="md:text-2xl text-md dark:text-white text-gray-800">I Love Quotes and I have some of my own, please feel free to read and get inspired... 
               <span className="inline-flex opacity-50 text-2xl font-light blinking">|</span>
             </p>
           </div>

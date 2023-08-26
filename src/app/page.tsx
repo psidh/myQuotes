@@ -4,7 +4,7 @@ import Top from './components/top';
 import Quotes from './components/quotes';
 import Footer from './components/footer';
 export default function Home() {
-  return (<main className='bg-gradient-to-r from-blue-200 to-pink-100' >
+  return (<main className='dark:bg-gradient-to-r dark:from-blue-900 dark:to-pink-900' >
     <NavBar/>
     <Top />
     <Quotes />
