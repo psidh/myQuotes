@@ -19,7 +19,7 @@ const Quotes = [
 ];
 
 const Blog = () => {
-  const [randomQuote, setRandomQuote] = useState(null);
+  const [randomQuote, setRandomQuote] = useState("");
   
   const getRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * Quotes.length);
