@@ -51,13 +51,13 @@ const Blog = () => {
             <div className="grid gap-4">
               <div className="flex-1 h-full">
                 <div className="bg-gradient-to-l from-blue-300 to-blue-500 dark:bg-gradient-to-r dark:from-blue-300 dark:to-pink-300 rounded-xl shadow-lg p-4">
-                  <p className="mt-2 dark:text-black text-white">
+                  <p className="text-justify  mt-2 dark:text-black text-white">
                     {randomQuote || "Click button for a random quote"}
                   </p>
                 </div>
                 <div className="flex justify-center items-center">
                 <button
-                  className=" mt-4 bg-gradient-to-r from-blue-500 to-blue-700 hover:bg-gradient-to-r hover:from-blue-700 hover:to-blue-500 text-white py-2 px-4 rounded-lg"
+                  className="text-justify mt-4 bg-gradient-to-r from-blue-500 to-blue-700 hover:bg-gradient-to-r hover:from-blue-700 hover:to-blue-500 text-white py-2 px-4 rounded-lg"
                   onClick={getRandomQuote}
                 >
                   Generate Quote
