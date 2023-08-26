@@ -20,6 +20,10 @@ const Quotes = [
   "Be Vegetarian else eat jhatka",
   "Materialistic pleasures are just like materialist pleasures, intoxicating and deadly",
   "Sanatan Dharma cannot perish until we fight",
+  "Marriages can work if it involves service, love, empathy and no lust",
+  "Sex is meant for pro-creation only",
+  "Always be calm at all situations",
+  "Time is flexible andn ",
 ];
 let randomIndex = -1;
 
