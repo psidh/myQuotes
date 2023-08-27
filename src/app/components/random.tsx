@@ -23,7 +23,9 @@ const Quotes = [
   "Marriages can work if it involves service, love, empathy and no lust",
   "Sex is meant for pro-creation only",
   "Always be calm at all situations",
-  "Time is flexible andn ",
+  "Time is flexible so squeeze as much as you can",
+  "Can we use AK-47 against a stone? Is there a rule that only equal weapons should be used. Winning is important",
+  "Use whatever is at your descretion to preserve, protect and flourish Dharma",
 ];
 let randomIndex = -1;
 
